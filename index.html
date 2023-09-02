@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tech-House, Tech, technology consortium.">
+    <title>Tech-House</title>
+    <link rel="icon" href="img/logo/tech-house-website-favicon-black.webp">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/mediaq.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <a class="btn-top" href="#" aria-label="Go to top of the page"><svg xmlns="http://www.w3.org/2000/svg" width="30"
+            height="30" viewBox="0 0 256 256">
+            <path fill="white"
+                d="M208.49 120.49a12 12 0 0 1-17 0L140 69v147a12 12 0 0 1-24 0V69l-51.51 51.49a12 12 0 0 1-17-17l72-72a12 12 0 0 1 17 0l72 72a12 12 0 0 1 0 17Z" />
+        </svg></a>
+    <header>
+        <a href="#" aria-label="Logo of Tech-House"><img id="header-logo"
+                src="./img/logo/tech-house-website-favicon-black.webp" alt="Tech-house logo"></a>
+        <nav>
+            <ul>
+                <li><input class="link" type="text" placeholder="Search..." name="search"><button
+                        class="btn">Search</button></li>
+                <li><a class="link" href="#" aria-label="Go to homepage">Home</a></li>
+                <li><a class="link" href="/HTML/faq.html" aria-label="Go to FAQ page">FAQ</a></li>
+                <li><a class="link" href="/HTML/links.html" aria-label="Go to links page">Links</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="page-container">
+            <div class="main grid">
+                <div>
+                    <h1>If You Can't Beat Teach House, Join Tech House</h1>
+                    <p>World leading technology consortium since 1985 </p>
+                    <button class="btn">Join</button>
+                </div>
+                <picture>
+                    <!-- Diffrent image is loaded depending on client screen width -->
+                    <source media="(max-width: 500px)" srcset="img/futuristic-house-with-beams-400x400.webp">
+                    <source media="(max-width: 800px)" srcset="img/futuristic-house-with-beams-600x600.webp">
+                    <source media="(min-width: 1200px)" srcset="img/futuristic-house-with-beams-800x800.webp">
+                    <!-- Default image if none of the conditions above are not met. Image is of type .jpg if .webp is not supported by client browser-->
+                    <!-- Styling should be done on the 'img' element and not 'source' -->
+                    <img class="img-main" src="img/futuristic-house-with-beams-800x800.jpg"
+                        alt="Picture on Tech-House office" loading="eager" fetchpriority="high">
+                </picture>
+            </div>
+        </section>
+        <section class="page-container">
+            <h2>Products</h2>
+            <div class="product-grid">
+                <article class="productcard">
+                    <a href="#"><img src="img/product.webp" alt="Image on a cisco switch" class="productcard-img"></a>
+                    <h3 class="product-title">Cisco SF220-48P</h3>
+                    <p class="productcard-price">500</p>
+                    <button class="productcard-button">Add to cart</button>
+                </article>
+                <article class="productcard">
+                    <a href="#"><img src="img/product.webp" alt="Image on a cisco switch" class="productcard-img"></a>
+                    <h3 class="product-title">Cisco SF220-48P</h3>
+                    <p class="productcard-price">500</p>
+                    <button class="productcard-button">Add to cart</button>
+                </article>
+                <article class="productcard">
+                    <a href="#"><img src="img/product.webp" alt="Image on a cisco switch" class="productcard-img"></a>
+                    <h3 class="product-title">Cisco SF220-48P</h3>
+                    <p class="productcard-price">500</p>
+                    <button class="productcard-button">Add to cart</button>
+                </article>
+                <article class="productcard">
+                    <a href="#"><img src="img/product.webp" alt="Image on a cisco switch" class="productcard-img"></a>
+                    <h3 class="product-title">Cisco SF220-48P</h3>
+                    <p class="productcard-price">500</p>
+                    <button class="productcard-button">Add to cart</button>
+                </article>
+                <article class="productcard">
+                    <a href="#"><img src="img/product.webp" alt="Image on a cisco switch" class="productcard-img"></a>
+                    <h3 class="product-title">Cisco SF220-48P</h3>
+                    <p class="productcard-price">500</p>
+                    <button class="productcard-button">Add to cart</button>
+                </article>
+                <article class="productcard">
+                    <a href="#"><img src="img/product.webp" alt="Image on a cisco switch" class="productcard-img" loading="lazy"></a>
+                    <h3 class="product-title">Cisco SF220-48P</h3>
+                    <p class="productcard-price">500</p>
+                    <button class="productcard-button">Add to cart</button>
+                </article>
+                <article class="productcard">
+                    <a href="#"><img src="img/product.webp" alt="Image on a cisco switch" class="productcard-img" loading="lazy"></a>
+                    <h3 class="product-title">Cisco SF220-48P</h3>
+                    <p class="productcard-price">500</p>
+                    <button class="productcard-button">Add to cart</button>
+                </article>
+                <article class="productcard">
+                    <a href="#"><img src="img/product.webp" alt="Image on a cisco switch" class="productcard-img" loading="lazy"></a>
+                    <h3 class="product-title">Cisco SF220-48P</h3>
+                    <p class="productcard-price">500</p>
+                    <button class="productcard-button">Add to cart</button>
+                </article>
+                <article class="productcard">
+                    <a href="#"><img src="img/product.webp" alt="Image on a cisco switch" class="productcard-img" loading="lazy"></a>
+                    <h3 class="product-title">Cisco SF220-48P</h3>
+                    <p class="productcard-price">500</p>
+                    <button class="productcard-button">Add to cart</button>
+                </article>
+                <article class="productcard">
+                    <a href="#"><img src="img/product.webp" alt="Image on a cisco switch" class="productcard-img" loading="lazy"></a>
+                    <h3 class="product-title">Cisco SF220-48P</h3>
+                    <p class="productcard-price">500</p>
+                    <button class="productcard-button">Add to cart</button>
+                </article>
+            </div>
+        </section>
+        <section class="page-container section-statistics">
+            <h2>Statistics</h2>
+            <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe voluptatum voluptatem
+                perspiciatis esse.
+                Porro, hic, reiciendis exercitationem aliquid accusantium incidunt commodi, iure quod sed excepturi qui.
+                Aspernatur nihil laudantium debitis?
+            </p>
+            <aside>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, assumenda ipsam, quod architecto
+                    sequi cupiditate, iure qui atque illo quos nostrum. Labore doloremque omnis obcaecati ullam ipsam,
+                    iste asperiores deleniti.
+                </p>
+                <a class="link" href="https://google.se" aria-label="Link to www.google.se">More info on google</a>
+            </aside>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas modi saepe, ratione earum
+                eligendi
+                deleniti? Quo sunt quibusdam id nesciunt ratione perspiciatis nam qui quaerat, dolorem, itaque eius
+                voluptatibus! Ad?</p>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas modi saepe, ratione earum
+                eligendi
+                deleniti? Quo sunt quibusdam id nesciunt ratione perspiciatis nam qui quaerat, dolorem, itaque eius
+                voluptatibus! Ad?</p>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas modi saepe, ratione earum
+                eligendi
+                deleniti? Quo sunt quibusdam id nesciunt ratione perspiciatis nam qui quaerat, dolorem, itaque eius
+                voluptatibus! Ad?</p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>header1</th>
+                        <th>header2</th>
+                        <th>header3</th>
+                        <th>header4</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>item1</td>
+                        <td>item2</td>
+                        <td>item3</td>
+                        <td>item4</td>
+                    </tr>
+                    <tr>
+                        <td>item1</td>
+                        <td>item2</td>
+                        <td>item3</td>
+                        <td>item4</td>
+                    </tr>
+                    <tr class="active-row">
+                        <td>item1</td>
+                        <td>item2</td>
+                        <td>item3</td>
+                        <td>item4</td>
+                    </tr>
+                    <tr>
+                        <td>item1</td>
+                        <td>item2</td>
+                        <td>item3</td>
+                        <td>item4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <div class="social-media">
+            <p class="heading-footer">Social media</p>
+            <div class="footer-logos">
+                <a href="https://sv-se.facebook.com/" aria-label="Link to our facebook-page"><img
+                        src="./img/social/logo-facebook.svg" alt="Link to our Facebook" loading="lazy">
+                </a>
+                <a href="https://www.instagram.com/" aria-label="Link to our instagram-page"><img
+                        src="./img/social/logo-instagram.svg" alt="Link to our Instagram" loading="lazy">
+                </a>
+                <a href="https://twitter.com/?lang=sv" aria-label="Link to our twitter-page"><img
+                        src="./img/social/logo-twitter.svg" alt="Link to our Twitter" loading="lazy">
+                </a>
+            </div>
+        </div>
+        <div>
+            <address>
+                <p class="heading-footer">Contact</p>
+                <a class="link" href="tel:415-201-6370"> +4670 123 45 67</a>
+                <a class="link" href="mailto:info@mail.com">info@mail.com</a>
+            </address>
+        </div>
+    </footer>
+</body>
+
+</html>
